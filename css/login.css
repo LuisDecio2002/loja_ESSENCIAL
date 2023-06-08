@@ -1,0 +1,61 @@
+
+
+ul {
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+
+	align-items: center;
+	justify-content: center;	
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#login {
+
+	padding: 30px;
+	text-align: center;
+}
+
+#login h4 {
+	margin-bottom: 10px;
+}
+
+
+
+.form-control {
+	width: 100%;
+
+}
+
+.btn {
+	width: 25%;
+}
+
+
+#login li {
+margin-top:30px;
+margin-left:-30px;
+}
+
+#login-imagem img {
+    padding: 10px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}

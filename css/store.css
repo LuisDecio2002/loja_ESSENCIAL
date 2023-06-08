@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --------------------------- MAIN --------------------------- */
+
+main {
+	width: 100%;
+    margin: 0 auto;
+}
+
+/* ----- Imagem de propaganda ----- */
+
+main div img {
+	max-width: 100%;
+  height: auto;
+  background-color: lightblue;
+  background: radial-gradient(white 30%, lightblue 70%);
+}
+
+/* ----- Conteudos ----- */
+
+main #conteudos {
+    display: grid;
+}
+
+main .conteudo {
+    padding: 10px;
+}
+
+main .conteudo img {
+    width: 100%;
+    height: 100%;
+}
+
+main #conteudo-produto {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+main #conteudo-outros {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.caixa-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main #conteudo-produto p {
+    padding: 5px;
+    color: black;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+main #conteudo-produto p span {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* ----- Carrinho ----- */
+#cart-count{
+  text-align: center;
+  padding: 0 0.9rem 0.1rem 0.9rem;
+  border-radius: 3rem;
+}
+
+.shop-cart{
+  padding: 3% 0;
+}
+
+.cart-itens + .cart-itens{
+  padding: 3% 0;
+}
+
+.price-detail h6{
+  padding: 3% 2%;
+}

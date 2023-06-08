@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --------------------------- MAIN --------------------------- */
+
+main {
+	width: 100%;
+    margin: 0 auto;
+}
+
+/* ----- Imagem de propaganda ----- */
+
+main div img {
+	width: 100%; 
+}
+
+/* ----- Conteudos ----- */
+
+main #conteudos {
+    display: grid;
+}
+
+main .conteudo {
+    padding: 10px;
+}
+
+main .conteudo img {
+    width: 100%;
+    height: 100%;
+}
+
+main #conteudo-produto {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+main #conteudo-outros {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+}
+
+.caixa-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main #conteudo-produto p {
+    padding: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;   
+}
+
+main #conteudo-produto p span {
+    margin-left: 5px;
+    font-weight: bold;   
+}
+
+
+main .conteudo h2 {
+   margin: 10px;
+   padding: 10px 50px;
+   font-size: 30px; 
+   text-align: center;
+}
+
+main .conteudo #empresa-historia {
+    text-transform: capitalize;
+    padding: 10px 50px;
+    text-align: justify;
+
+}
+
+main .conteudo #empresa-imagem img {
+    padding: 10px 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+main .conteudo #contato {
+    margin: 10px;
+    padding: 10px 50px;
+    font-size: 20px; 
+    text-align: center;
+}
